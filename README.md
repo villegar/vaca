@@ -1,2 +1,1 @@
-# vaca
-Variant Calling pipeline
+# VaCa: Variant Calling pipeline
