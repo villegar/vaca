@@ -1,0 +1,4 @@
+snakemake --dag $@ | dot -Tsvg > dag.$(date "+%Y-%m-%d").svg
+snakemake --rulegraph $@ | dot -Tsvg > rule-graph.$(date "+%Y-%m-%d").svg
+snakemake --dag $@ | dot -Tpng -Gdpi=300 > images/dag.png
+snakemake --rulegraph $@ | dot -Tpng -Gdpi=300 > images/rule-graph.png
